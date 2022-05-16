@@ -16,6 +16,7 @@
 
     <h1>Uso de watch en Vue.js</h1>
 
+    <p>Usando @keyup</p>
     <label for="email">E-mail:</label>
     
     <input 
@@ -27,7 +28,7 @@
     <span :class="msg.alert && 'red'">{{msg.email}}</span>
 
     <br><br>
-    
+    <p>Usando watch</p>
     <label for="name">Nombre de usuario:</label>
     <input type="text" v-model="nombre">
     <p class="red">{{msg.nombres}}</p>
